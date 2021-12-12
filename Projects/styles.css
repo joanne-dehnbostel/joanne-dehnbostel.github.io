@@ -1,24 +1,38 @@
 body {
   margin: 40px;
 }
-
+.sidebar {
+  /* Grid area for the sidebar */
+  grid-row:1/2 ;
+}
 .sidebar {
   /* Grid area for the sidebar */
   grid-row:2/3 ;
+}
+.sidebar {
+  /* Grid area for the sidebar */
+  grid-row:3/4 ;
 }
 
 .content {
   /* Grid area for content */
   grid-column:2/4;
    grid-row:1/2 ;
-  grid-row:2/3 ;
-  grid-row:3/4 ;
 }
-
+.content {
+  /* Grid area for content */
+  grid-column:2/4;
+   grid-row:2/3 ;
+}
+.content {
+  /* Grid area for content */
+  grid-column:2/4;
+   grid-row:3/4 ;
+}
 .header {
   /* Grid area for header */
   grid-column: 1/4;
-   grid-column: 0/1;
+   grid-row: 0/1;
 }
 
 .footer {
