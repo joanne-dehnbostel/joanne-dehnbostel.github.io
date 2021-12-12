@@ -47,7 +47,7 @@ body {
   background-color: #fff;
   color: #444;
 /* grid-template-columns and grid-template-areas values defined here. */
-  grid-template-columns: 120px 120px 120px;
+  grid-template-columns: 360px 360px 360px;
   grid-template-areas:
     'header header header'
     'sidebar content content'
