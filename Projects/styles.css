@@ -14,7 +14,7 @@ body {
 
 .header {
   /* TODO: Define the grid area here */
-  grid-column: 2/4;
+  grid-column: 1/4;
 }
 
 .footer {
