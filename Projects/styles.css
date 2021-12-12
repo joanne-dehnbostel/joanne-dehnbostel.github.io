@@ -21,12 +21,12 @@ body {
 .header {
   /* Grid area for header */
   grid-column: 0/4;
-   grid-row: 0/1;
+  
 }
 
 .footer {
   /* grid area for footer */
-  grid-row: 4/5;
+  
   grid-column: 0/4;
 }
 
