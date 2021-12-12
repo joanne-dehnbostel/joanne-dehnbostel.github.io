@@ -10,16 +10,20 @@ body {
 .content {
   /* Grid area for content */
   grid-column:2/4;
+   grid-row:1/2 ;
+  grid-row:2/3 ;
+  grid-row:3/4 ;
 }
 
 .header {
   /* Grid area for header */
   grid-column: 1/4;
+   grid-column: 0/1;
 }
 
 .footer {
   /* grid area for footer */
-  grid-row: 3/4;
+  grid-row: 4/5;
   grid-column: 1/4;;
 }
 
@@ -32,6 +36,8 @@ body {
   grid-template-columns: 120px 120px 120px;
   grid-template-areas:
     'header header header'
+    'sidebar content content'
+    'sidebar content content'
     'sidebar content content'
     'footer  footer  footer';
 }
