@@ -3,22 +3,22 @@ body {
 }
 
 .sidebar {
-  /* TODO: Define the grid area here */
+  /* Grid area for the sidebar */
   grid-row:2/3 ;
 }
 
 .content {
-  /* TODO: Define the grid area here */
+  /* Grid area for content */
   grid-column:2/4;
 }
 
 .header {
-  /* TODO: Define the grid area here */
-  grid-column: 2/4;
+  /* Grid area for header */
+  grid-column: 3/4;
 }
 
 .footer {
-  /* TODO: Define the grid area here */
+  /* grid area for footer */
   grid-row: 3/4;
   grid-column: 1/4;;
 }
@@ -28,10 +28,10 @@ body {
   grid-gap: 10px;
   background-color: #fff;
   color: #444;
-/* TODO: Define the grid-template-columns and grid-template-areas values here. */
+/* grid-template-columns and grid-template-areas values defined here. */
   grid-template-columns: 120px 120px 120px;
   grid-template-areas:
-    '....... header header'
+    'header header header'
     'sidebar content content'
     'footer  footer  footer';
 }
