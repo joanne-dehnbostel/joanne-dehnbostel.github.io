@@ -4,6 +4,7 @@ body {
 
 .sidebar {
   /* grid area*/
+  grid-column:1/2;
   grid-row:2/6 ;
 }
 
