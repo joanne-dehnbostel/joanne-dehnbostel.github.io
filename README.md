@@ -1,7 +1,4 @@
----
-layout: default
-title: About Joanne Dehnbostel
----
+
 #  https://joanne-dehnbostel.github.io
-#### 
-Hello and welcome. The link above will take you to my portfolio which showcases a few projects I am working on as a student in MITxPro Professional Certificate in Coding : Full Stack Development with MERN. Please use the navigation bar in the header of my portfolio page to learn more about me and see my projects in action. Additional information can be found in the external links in the footer. Thanks for stopping by. 
+### ==Hello and welcome.==
+The link above will take you to my portfolio which showcases a few projects I am working on as a student in MITxPro Professional Certificate in Coding : Full Stack Development with MERN. Please use the navigation bar in the header of my portfolio page to learn more about me and see my projects in action. Additional information like my Linkedin page and email can be found in the external links in the footer. Thanks for stopping by. 
