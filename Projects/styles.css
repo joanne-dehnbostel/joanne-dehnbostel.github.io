@@ -5,7 +5,7 @@ body {
 .sidebar {
   /* grid area*/
   grid-column:1/2;
-  grid-row:2/6 ;
+  grid-row:2/5 ;
 }
 
 .content {
@@ -34,10 +34,10 @@ body {
   grid-template-columns: 200px 200px 200px 200px 200px 200px;
   grid-template-areas:
     'header header header header header header'
-    'sidebar content content content content sidebar'
-    'sidebar content content content content sidebar'
-    'sidebar content content content content sidebar'
-    'sidebar content content content content sidebar'
+    'sidebar content content content content content'
+    'sidebar content content content content content'
+    'sidebar content content content content content'
+    'sidebar content content content content content'
     'footer footer footer footer footer footer';
 }
 
