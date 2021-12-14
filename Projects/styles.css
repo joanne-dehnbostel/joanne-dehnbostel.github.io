@@ -4,12 +4,13 @@ body {
 
 .sidebar {
   /* grid area*/
-  grid-row:2/3 ;
+  grid-row:2/6 ;
 }
 
 .content {
   /* grid area*/
-  grid-column:2/4;
+  grid-column:2/6;
+  grid-row:2/5;
 }
 
 .header {
@@ -19,7 +20,7 @@ body {
 
 .footer {
   /*grid area */
-  grid-row: 3/4;
+  grid-row: 5/6;
   grid-column: 1/6;;
 }
 
@@ -28,16 +29,19 @@ body {
   grid-gap: 10px;
   background-color: #fff;/*white*/
   color: #444;/*dark gray*/
-/* TODO: Define the grid-template-columns and grid-template-areas values here. */
+/* Grid-template-columns and grid-template-areas values defined here. */
   grid-template-columns: 200px 200px 200px 200px 200px 200px;
   grid-template-areas:
-    'header header header'
-    'sidebar content content'
-    'footer  footer  footer';
+    'header header header header header header'
+    'sidebar content content content content sidebar'
+    'sidebar content content content content sidebar'
+    'sidebar content content content content sidebar'
+    'sidebar content content content content sidebar'
+    'footer footer footer footer footer footer';
 }
 
 .box {
-  background-color: #3EB489;/*blue*/
+  background-color: #3EB489;/*mint green*/
   color: #fff;/*white*/
   border-radius: 5px;
   padding: 10px;
