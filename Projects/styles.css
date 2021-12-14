@@ -14,13 +14,13 @@ body {
 
 .header {
   /* grid area*/
-  grid-column: 1/4;
+  grid-column: 1/6;
 }
 
 .footer {
   /*grid area */
   grid-row: 3/4;
-  grid-column: 1/4;;
+  grid-column: 1/6;;
 }
 
 .wrapper {
@@ -29,7 +29,7 @@ body {
   background-color: #fff;/*white*/
   color: #444;/*dark gray*/
 /* TODO: Define the grid-template-columns and grid-template-areas values here. */
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px;
   grid-template-areas:
     'header header header'
     'sidebar content content'
